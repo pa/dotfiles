@@ -1,0 +1,12 @@
+autoCommit: true
+externals:
+  .config/fish:
+    - url: https://github.com/IlanCosman/tide
+      paths:
+        - completions completions
+        - conf.d conf.d
+        - functions functions
+    - url: https://github.com/jethrokuan/z
+      paths:
+        - conf.d conf.d
+        - functions functions
